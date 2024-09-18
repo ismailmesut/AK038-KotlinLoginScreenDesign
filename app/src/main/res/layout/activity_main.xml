@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imgAppLogo"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginTop="57dp"
@@ -20,53 +20,53 @@
         app:srcCompat="@drawable/image" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/etUsername"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginTop="75dp"
         android:backgroundTint="@color/colorAccent"
         android:ems="10"
-        android:hint="User Name"
+        android:hint="@string/userName"
         android:inputType="textPersonName"
         android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imgAppLogo" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/etPassword"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginTop="33dp"
         android:backgroundTint="@color/colorAccent"
         android:ems="10"
-        android:hint="Password"
+        android:hint="@string/password"
         android:inputType="text"
         android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+        app:layout_constraintTop_toBottomOf="@+id/etUsername" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnLogin"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginTop="45dp"
         android:background="@color/colorAccent"
-        android:text="LOGIN"
+        android:text="@string/buttonText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
+        app:layout_constraintTop_toBottomOf="@+id/etPassword" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvHelp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
-        android:text="Help?"
+        android:text="@string/help"
         android:textColor="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

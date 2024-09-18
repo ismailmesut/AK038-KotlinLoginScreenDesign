@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">KotlinLoginScreenDesign</string>
+    <string name="userName">Username</string>
+    <string name="password">Password</string>
+    <string name="buttonText">LOGIN</string>
+    <string name="help">Help?</string>
 </resources>
